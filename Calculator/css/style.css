@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    background-color: rgb(167, 168, 168);
+}
+h1 {  
+    text-align: center;  
+    padding: 2.3rem;  
+    background-color: skyblue;  
+    color: white;  
+    }  
+  
+#clear{  
+width: 27rem;  
+border: 3px solid gray;  
+    border-radius: 3px;  
+    padding: 2rem;  
+    background-color: red;  
+}  
+  
+.formstyle  
+{  
+width: 33rem;  
+height: 55rem;
+  
+margin: auto; 
+margin-top: .8rem; 
+border: 3px solid skyblue;  
+border-radius: .5rem;  
+padding: 2rem;  
+}  
+  
+  
+  
+input  
+{  
+width: 2rem;  
+background-color: rgb(237, 70, 220);  
+color: white;  
+border: 3px solid gray;  
+    border-radius: 5px;  
+    padding: 2.5rem;  
+    margin: .5rem;  
+    font-size: 1.2rem;  
+}  
+  
+  
+#calc{  
+width: 25rem;  
+border: 5px solid black;  
+    border-radius: 3px;  
+    padding: 2rem;  
+    margin: .5rem 1.5rem;  
+}  
