@@ -1,0 +1,29 @@
+textarea{
+    width:80%;
+    height:10vh;
+    display:block;
+    margin:1rem auto;
+    padding:1rem;
+  }
+  #output{
+    border:1px solid black;
+    width:80%;
+    height:10vh;
+    margin:1rem auto;
+    padding:1rem;
+  }
+  h1{
+    width:fit-content;
+    display:block;
+    margin:0 auto;
+    background-color:#F97F51;
+   
+  }
+  #btn-translate{
+    display:block;
+    margin:0 auto;
+  }
+  .first{
+   text-align:center;
+    margin:1rem;
+  }
