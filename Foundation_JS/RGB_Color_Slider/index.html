@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RGB Color Slider</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.1/css/all.min.css" integrity="sha512-3M00D/rn8n+2ZVXBO9Hib0GKNpkm8MSUU/e2VNthDyBYxKWG+BftNYYcuEjXlyrSO637tidzMBXfE7sQm0INUg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <script src="first.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper">
+            R <input type="range" min="0" max="255" value="0" id="red" oninput="colors()">
+        </div>
+        <div class="wrapper">
+            G <input type="range" min="0" max="255" value="0" id="green" oninput="colors()">
+        </div>
+        <div class="wrapper">
+            B <input type="range" min="0" max="255" value="0" id="blue" oninput="colors()">
+        </div>
+        <span id="output">rgb(0,0,0)</span>
+    </div>
+</body>
+</html>
